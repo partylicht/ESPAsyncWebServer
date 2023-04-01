@@ -939,7 +939,7 @@ IPAddress AsyncWebSocketClient::remoteIP()
 {
   if (!_client)
   {
-    return IPAddress(uint32_t)0);
+    return IPAddress((uint32_t)0);
   }
   return _client->remoteIP();
 }
